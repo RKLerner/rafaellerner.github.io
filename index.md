@@ -12,6 +12,120 @@
   <h2>Resumo Profissional</h2>
   <p>Com uma década de experiência e tendo como pilares sólidos a qualidade, o atendimento humanizado e a geração de valor, busco recolocação nas áreas de Testes de Software ou Suporte Técnico, com o objetivo de entregar resultados que impactem positivamente tanto os produtos monetizados quanto os clientes.</p>
 </section>
+<style>
+  .portfolio-section {
+    max-width: 900px;
+    margin: 3rem auto;
+    padding: 0 1rem;
+    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  }
+  .portfolio-section h2 {
+    font-size: 1.8rem;
+    border-left: 5px solid #2c7da0;
+    padding-left: 1rem;
+    margin-bottom: 1.5rem;
+    color: #1f3b4c;
+  }
+  .portfolio-card {
+    background: #f9f9fc;
+    border-radius: 20px;
+    padding: 1.2rem 1.5rem;
+    margin-bottom: 1.8rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    transition: 0.2s;
+    border: 1px solid #e9ecef;
+  }
+  .portfolio-card:hover {
+    box-shadow: 0 6px 14px rgba(0,0,0,0.08);
+    border-color: #cbd5e1;
+  }
+  .portfolio-card h3 {
+    margin-top: 0;
+    margin-bottom: 0.4rem;
+    font-size: 1.4rem;
+    color: #0b3b4f;
+  }
+  .portfolio-context {
+    font-size: 0.85rem;
+    color: #2c7da0;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 0.8rem;
+  }
+  .portfolio-desc {
+    margin: 0.6rem 0;
+    color: #2c3e44;
+    line-height: 1.45;
+  }
+  .portfolio-highlight {
+    background: #eef2f5;
+    padding: 0.3rem 0.6rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    display: inline-block;
+    margin-top: 0.5rem;
+    color: #1e5a6b;
+  }
+  hr {
+    margin: 2rem 0;
+    border: 0;
+    height: 1px;
+    background: #dee2e6;
+  }
+  @media (max-width: 600px) {
+    .portfolio-card { padding: 1rem; }
+    .portfolio-section h2 { font-size: 1.5rem; }
+  }
+</style>
+
+<div class="portfolio-section">
+  <h2>📁 Portfólio (projetos e empresas – descrição anônima)</h2>
+
+  <!-- 1. Maior cervejaria do mundo -->
+  <div class="portfolio-card">
+    <div class="portfolio-context">🍺 Maior cervejaria do mundo</div>
+    <h3>Gestão de visibilidade de frotas + calls estratégicas</h3>
+    <div class="portfolio-desc">
+      Em conjunto com o gerente do cliente, liderei o gerenciamento da visibilidade dos rastreadores da frota. 
+      Acompanhamento semanal com calls de alinhamento e análise de indicadores.
+    </div>
+    <div class="portfolio-highlight">✔ Calls semanais com gerência | Redução de inconsistências operacionais</div>
+  </div>
+
+  <!-- 2. Gigante de snacks & bebidas + Conglomerado de energia + Multinacional de energia -->
+  <div class="portfolio-card">
+    <div class="portfolio-context">🥤 Gigante de snacks & bebidas | 🧃 Conglomerado de bebidas/energia | ⚡ Multinacional de energia</div>
+    <h3>Testador + suporte do sistema – primeira versão sem erros de atualização</h3>
+    <div class="portfolio-desc">
+      Responsável por testes funcionais, regressão e suporte contínuo do sistema utilizado por essas empresas. 
+      Monitoramento de métricas e estabilidade. <strong>Após minha atuação, o sistema alcançou sua primeira versão sem erros de atualização</strong> – um marco de qualidade inédito.
+    </div>
+    <div class="portfolio-highlight">✅ Testes E2E | APIs REST (Go) | Zero falhas críticas em produção</div>
+  </div>
+
+  <!-- 3. DataTransp + FourKites (Coca-Cola) -->
+  <div class="portfolio-card">
+    <div class="portfolio-context">🚛 Integração TMS <> FourKites (plataforma global de rastreamento)</div>
+    <h3>Projeto de integração logística para gigante de refrigerantes</h3>
+    <div class="portfolio-desc">
+      Atuei diretamente na integração entre o sistema TMS (DataTransp) e a FourKites, viabilizando rastreamento em tempo real para uma das maiores marcas de bebidas do mundo.
+      Garanti o fluxo de dados entre as plataformas e a consistência das informações de transporte.
+    </div>
+    <div class="portfolio-highlight">🔗 Integração de APIs | Rastreabilidade ponta a ponta | Melhoria de SLA</div>
+  </div>
+
+  <!-- 4. Acompanhamento estratégico para transportadora de Curitiba -->
+  <div class="portfolio-card">
+    <div class="portfolio-context">📊 Transportadora de grande porte (Curitiba/PR)</div>
+    <h3>Relatórios estratégicos semanais e indicadores de frota</h3>
+    <div class="portfolio-desc">
+      Produção de relatórios gerenciais semanais com análise de desempenho da frota. 
+      Acompanhamento direto com a diretoria da transportadora, fornecendo insumos para tomada de decisão.
+    </div>
+    <div class="portfolio-highlight">📈 KPIs de transporte | Relatórios executivos | Reuniões de estratégia</div>
+  </div>
+</div>
 <section id="qualificacoes">
   <h2>Qualificações</h2>
   <ul>
@@ -47,8 +161,6 @@
       <li>Interface técnica com fornecedores e clientes corporativos de alto valor, atuando como ponto de escalação.</li>
     </ul>
   </div>
-
-  <!-- Repita para as demais experiências: Supervisor Técnico de Suporte (DATATRANSP), Analista de Suporte (DATATRANSP), Analista de Suporte Nível II (MAIS INTERNET), Analista de Suporte (QUESTOR SISTEMAS) -->
 </section>
 <section id="formacao">
   <h2>Formação</h2>
